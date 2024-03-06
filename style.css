@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D1C4E9;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    height: 11vh;
+    background-color: #6A1B9A;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-left: 3%;
+}
+.logo{
+    font-weight: bolder;
+    font-size: xx-large;
+    cursor: pointer;
+}
+.anchors{
+    justify-content: space-between;
+    width: 30vw;
+}
+.anchors a {
+    margin-right: 13%;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    color: white;
+
+}
+.anchors a:hover{
+    color: #E91E63;
+}
+.M{
+    font-size: larger;
+    color: #E91E63;
+}
+
+
+.main{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-right: 5%;
+  
+}
+
+
+.left{
+    margin-top: 8vh;
+    /*background-color: #9575CD;*/
+    border-radius: 25%;
+    margin-left: 5vw;
+    width: 40vw;
+}
+.homepng{
+    width: 35vw;
+    height: auto;
+    padding-top: 15vh;
+   
+
+}
+.text{
+    padding-top: 15%;
+    font-size: 2rem;
+    padding-left: 10%;
+    color: #8250C2;
+}
+.hello{
+    font-size: 6rem;
+    font-weight: 600;
+    color: #6A1B9A;
+}
+.prlinks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    width: 40%;
+}
+.prlinks a  {
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 7px;
+    background-color: rgb(0 0 0 / 0%);
+    font-size: 16px;
+    color: #8250C2;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+
+}
+
+.prlinks a:hover{
+    background-color: #6A1B9A;
+    color: #E91E63;
+}
+.about{
+    display: flex;
+    
+    justify-content: space-around;
+    padding-right: 5%;
+
+}
+.lefta{
+    margin-top: 5vh;
+    
+    
+    margin-left: 2vw;
+    width: 50vw;
+   
+    color: aquamarine;
+    padding-left: 0%;
+}
+.me{
+    width: 30vw;
+    height: auto;
+    padding-top: 5vh;
+}
+.lefta p{
+    font-size: 1.5rem;
+    color: #8250C2;
+    padding-left: 0%;
+}
+.aboutme{
+    padding-top: 5%;
+    font-size: 2em;
+    font-weight: 700;
+    color: #6A1B9A;
+    text-decoration: underline solid #6A1B9A;
+}
+.texta{
+    padding-left: 5%;
+    padding-top: 6%;
+    
+}
+.secp{
+    padding-top: 5%;
+}
