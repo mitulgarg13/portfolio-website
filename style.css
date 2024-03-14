@@ -26,11 +26,14 @@ nav{
     cursor: pointer;
 }
 .anchors{
+    display: flex;
     justify-content: space-between;
     width: 30vw;
+
+    padding-right: 4%;
 }
 .anchors a {
-    margin-right: 13%;
+    /*margin-right: 13%;*/
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease 0s;
@@ -38,6 +41,8 @@ nav{
     color: white;
 
 }
+
+
 .anchors a:hover{
     color: #E91E63;
 }
@@ -77,13 +82,13 @@ nav{
     color: white;
 }
 .hello{
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 600;
     color: #e65686;
 }
 .prlinks{
     display: flex;
-    justify-content: space-between;
+    
     margin-top: 4%;
     width: 50%;
 }
@@ -97,7 +102,7 @@ nav{
     font-weight: 500;
     transition: all 0.3s ease 0s;
     cursor: pointer;
-
+    margin: 0px 4px;
 }
 
 .prlinks a:hover{
@@ -244,3 +249,87 @@ h2{
     color:white;
     padding-left: 10%;
 }
+@media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      height: 13vh;
+    }
+    .anchors {
+      width: 100%;
+      margin-top: 3%;
+    }
+    .anchors a {
+      margin: 0 10px;
+    }
+    .main, .about {
+      flex-direction: column;
+      align-items: center;
+      padding-right: 0;
+    }
+    .left, .lefta {
+      width: 80%;
+      margin: 3% 0;
+      text-align: center;
+    }
+    .homepng {
+      width: 80%;
+      padding-left: 10%;
+    }
+    .me{
+        width: 50vh;
+    }
+    .prlinks {
+      width: 80%;
+      padding-left: 5%;
+      justify-content: center;
+    }
+    .prlinks a {
+      margin: 10px;
+    }
+    .contact {
+      display: block;
+      grid-template-columns:none;
+      grid-template-rows: 1fr 1fr 1fr 1fr 7fr 1fr;
+      justify-items: center;
+      align-items: start;
+    }
+    .con_main{
+        text-align: center;
+        
+    }
+    .address{
+        grid-row: 2/3;
+    }
+    .email{
+        grid-row: 3/4;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .call{
+        grid-row: 4/5;
+    }
+
+    .get {
+        margin-top: 5%;
+      padding: 2%;
+      grid-row: 5/7;
+      margin-bottom: 1%;
+    }
+    .form_main {
+      /*grid-template-columns: 1fr;*/
+      grid-template-rows: repeat(5, auto);
+      padding-left: 3%;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .name_section{
+        width: 100%;
+    }
+    .submit_button {
+      width: 100%;
+    }
+  }
+  
