@@ -275,6 +275,7 @@ h2{
     .homepng {
       width: 80%;
       padding-left: 10%;
+      padding-top: 0%;
     }
     .me{
         width: 50vh;
@@ -330,6 +331,18 @@ h2{
     }
     .submit_button {
       width: 100%;
+    }
+  }
+  @media screen and (max-width: 410px){
+    .homepng{
+        padding-top: 0%;
+    }
+    .hello{
+        font-size: 4rem;
+    }
+    .text{
+        padding-left: 0%;
+        padding-top: 7%;
     }
   }
   
